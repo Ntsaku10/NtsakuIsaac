@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./Issac.jpg)no-repeat center center/ cover;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: auto;
+    border: 2px rgb(195, 14, 14);
+}
+
+header{
+    background-color: rgb(39, 232, 126);
+}
+
+header nav h1{
+    float: left;
+    padding: 10px; 
+}
+
+header nav ul{
+    float: right;
+}
+
+header nav ul li{
+    display: inline;
+}
+header nav ul li a{
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+}
+
+header nav ul li a:hover{
+    color: rgb(223, 16, 140);
+    background-color: blue;
+}
+h1.intro{
+    text-align: center;
+    color:rgb(22, 221, 68);
+    font-size: 40px;
+    margin: 40px;
+}
+
+form{
+    max-width: 400px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 10px;
+    padding-top: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+    form label{
+        display: block;
+        color:black;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="passeword"]{
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 15px;
+        border: none;
+        font-size: 10px;
+    }
+form input[tpye="submit"]{
+    display: block;
+    margin: 15px auto;
+    width: 50%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    color: greenyellow;
+    text-align: center;
+    font-size: 10px;
+}
+#Login-Link{
+    color: blue; /*set the colour value you,such as blue*/
+}
+    
