@@ -89,7 +89,7 @@ form input[tpye="submit"]{
     border: none;
     border-radius: 8px;
     color: greenyellow;
-    text-align: center;
+    text-align: right;
     font-size: 10px;
 }
 #Login-Link{
